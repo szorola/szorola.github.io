@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Conclusion</title>
+<link href="sarah.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+<script src="https://kit.fontawesome.com/6962095a43.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<body onLoad="MM_preloadImages('rolloverimage2.png')">
+<div class="container">
+  <header>
+	
+<h1>Conclusion</h1>
+	<ul>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="about.html">About</a></li>
+	  <li><a href="safety.html">Safety</a></li>
+	  <li><a href="statistics.html">Statistics</a></li>
+	  <li><a href="conclusion.html">Conclusion</a></li>
+	  <li><a href="default.html">Cowgirl Designs</a></li>
+	  <li><a href="history.html">History</a></li>
+	  <li><a href="services.html">Services</a></li>
+	  <li><a href="contact.html">Contact</a></li>
+	  <li><a href="clients.html">Clients</a></li>
+	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','rolloverimage2.png',1)"><img src="rolloverimage1.png" alt="" width="100" height="100" id="Image6"></a>
+    </ul>
+ </header>
+  <section>
+    <a href="conclusion.html"></a>
+<div id="Accordion1">
+	  <h3><a href="#">What Did You Learn?</a></h3>
+	  <div>
+	    <p>The coronavirus disease is a highly contagious virus causing numerous deaths weekly. It is something that should not be taken likely anywhere. The virus can be found in many places such as the air, water, fabric, plastic, etc. It is important to wear protective gear such as face masks and gloves while entering public facilities. For more information about the COVID-19, COVID-19 cases, or tips and tricks on how to protect yourself and others, please click on the links below.</p>
+		      <a href="https://www.cdc.gov">Center for Disease Control</a>
+		  
+      </div>
+	  <h3><a href="#">Safety Charts</a></h3>
+	  <div>
+	    <img src="2019-ncov-factsheet.pdf">
+		
+      </div>
+	  <h3><a href="#">Cases</a></h3>
+	  <div>
+	    <p><a href="https://www.sanantonio.gov/health/news/alerts/coronavirus">San Antonio COVID-19 cases</a></p>
+		<a href="htts://www.cdc.gov" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','rolloverimage2.png',1)"><img src="rolloverimage1.png" alt="" width="100" height="100" id="Image5"></a>
+      </div>
+    </div>
+  </section>
+  <footer>
+	<form>
+		<input type="text" name="firstname" placeholder="First name">
+		<input type="text" name="lastname" 	placeholder="Last name">
+	  <input type="text" name="email"		placeholder="Email">
+	  <textarea name="message">Message</textarea>
+ 	  <input type="submit" name="Submit">
+	  <i class="fas fa-phone-alt">(210)422-1859</i>
+	  <i class="far fa-envelope">szorola6@gmail.com</i>
+	  <img src="facebook-icon-white-logo-png-transparent.png" usemap="#Map">
+      <map name="Map">
+        <area shape="rect" coords="6,6,96,91" href="https://www.facebook.com" alt="">
+      </map>
+	  <img src="instagramicon.png" usemap="#Map2">
+      <map name="Map2">
+        <area shape="rect" coords="3,5,47,50" href="https://www.instagram.com">
+      </map>
+	  <img src="twitterpng.png" usemap="#Map3">
+      <map name="Map3">
+        <area shape="rect" coords="4,3,46,46" href="https://www.twitter.com">
+      </map>
+    </form>	
+</footer>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+</script>
+</body>
+</html>

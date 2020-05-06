@@ -1,0 +1,66 @@
+@charset "utf-8";
+body {
+	background-image: url("coronavirus.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@font-face {
+	font-family: MyFirstFonts;
+	src: url("Summit Attack.ttf");
+}
+
+img {
+	width: 40px;
+	height:30px;
+}
+
+.container {
+	margin: 0px auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	float: center;
+	width: 860px;
+	border: black medium solid;
+	background-image: url("sciencesource_ss2413465_wide-239fa0a3976275f12212327667e1257771e49e36.jpg");
+	border-radius: 10px;
+}
+
+header {
+	height: 100px;
+	background: linear-gradient(white, cyan);
+	border-radius: 10px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	font-size: 10px;
+	text-align: left;
+}
+
+li {
+	display: inline;
+}
+
+section {
+	width: 600px;
+	margin-left: 200px;
+}
+.sectionTitle {
+	margin-right: 6px;
+	
+}
+
+* {
+	font-family: MyFirstFonts;
+}
+
+.navred{
+	color: red;
+}
+footer {
+	clear: both;
+	height: 90px;
+	background: linear-gradient(white, cyan);
+	border-radius: 10px;
+}

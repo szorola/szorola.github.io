@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="sarah.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+<script src="https://kit.fontawesome.com/6962095a43.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+
+<body onLoad="MM_preloadImages('rolloverimage2.png')">
+<div class="container">
+  <header>
+	<h1>Home</h1>
+	 <ul>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="about.html">About</a></li>
+	  <li><a href="safety.html">Safety</a></li>
+	  <li><a href="statistics.html">Statistics</a></li>
+	  <li><a href="conclusion.html">Conclusion</a></li>
+	  <li><a href="default.html">Cowgirl Design</a></li>
+	  <li><a href="history.html">History</a></li>
+	  <li><a href="services.html">Services</a></li>
+	  <li><a href="contact.html">Contact</a></li>
+	  <li><a href="clients.html">Clients</a></li>
+	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Index','','rolloverimage2.png',1)"><img src="rolloverimage1.png" alt="" width="100" height="100" id="Index"></a>
+    </ul>
+  </header>
+  <section class="container">
+	<div id="Accordion1">
+<h3 class="navred">About</h3>
+	  <div>
+		 <p>A pandemic known as the COVID-19 pandemic arose in March 2020. COVID-19 is an irreversible disease causing numerous deaths and illnesses. The pandemic has caused many large businesses and small businesses to restrict their free flow of customers.</p>
+		 <li><a href="about.html">Click here to learn about the COVID-19.</a></li>
+      </div>
+	  <h3>Safety</h3>
+	 <div>
+		<p>The coronavirus is known to attack many organ systems such as the cardiovasular system, and respiratory system. It is important to wash hands, wear face masks when going out and stay home when sick. It is important to not only protect ourselves but protect others.</p>
+		<a href="safety.html">Click here to learn about COVID-19 tips and tricks.</a>
+     </div>
+	  <h3>Statistics</h3>
+	 <div>
+		 <p>The COVID-19 has spread globally. The CDC has noted the many cases and lives COVID-19 has claimed. San Antonio has listed different hotspots the coronavirus has infected. To find out more about the cases in Bexar County, click on the link below. </p>
+		<a href="statistics.html">Click here to learn more about COVID-19 cases and death tolls.</a>
+	 </div>
+	  <h3>Conclusion</h3>
+	<div>
+		<p>The conclusion ties all of the information together. It has more information talking about COVID-19 and what you could do to slow it down. It is important to stay up to date with newscasts and internet articles to see where the COVID-19 is at in your area.</p>
+		<a href="conclusion.html">Click here to go to jump to the end.</a>
+    </div>
+
+  </section>
+ <footer>
+	<form>
+		<input type="text" name="firstname" placeholder="First name">
+		<input type="text" name="lastname" 	placeholder="Last name">
+	  <input type="text" name="email"		placeholder="Email">
+	  <textarea name="message">Message</textarea>
+ 	  <input type="submit" name="Submit">
+	  <i class="fas fa-phone-alt">(210)422-1859</i>
+	  <i class="far fa-envelope">szorola6@gmail.com</i>
+	  <img src="facebook-icon-white-logo-png-transparent.png" usemap="#Map">
+      <map name="Map">
+        <area shape="rect" coords="7,4,29,17" href="https://www.facebook.com">
+      </map>
+		<img src="instagramicon.png" usemap="#Map2">
+        <map name="Map2">
+          <area shape="rect" coords="3,4,27,19" href="htps://www.instagram.com">
+        </map>
+		<img src="twitterpng.png" usemap="#Map3">
+        <map name="Map3">
+          <area shape="rect" coords="4,4,26,18" href="https://www.twitter.com">
+        </map>
+		
+	</form>
+</footer>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+</script>
+
+</body>
+</html>

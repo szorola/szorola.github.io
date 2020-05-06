@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="sarah.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+<script src="https://kit.fontawesome.com/6962095a43.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('rolloverimage2.png')">
+<div class="container">
+  <header>
+		<h1>About</h1>
+	<ul>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="about.html">About</a></li>
+	  <li><a href="safety.html">Safety</a></li>
+	  <li><a href="statistics.html">Statistics</a></li>
+	  <li><a href="conclusion.html">Conclusion</a></li>
+	  <li><a href="default.html">Cowgirl Design</a></li>
+	  <li><a href="history.html">History</a></li>
+	  <li><a href="services.html">Services</a></li>
+	  <li><a href="contact.html">Contact</a></li>
+	  <li><a href="clients.html">Clients</a></li>
+	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','rolloverimage2.png',1)"><img src="rolloverimage1.png" alt="" width="100" height="100" id="Image4"></a>
+    </ul>
+</header>
+	<section>
+	  <div id="Accordion1">
+		  <h3><a href="#">What is COVID-19</a></h3>
+		  <div>
+		    <p>COVID-19 stands for Coronavirus Disease 2019. The coronavirus is a highly infectious disease causing numerous illnesses. The COVID-19 has three different names; MERS, SARS, and Wuhan (the one that is currently causing this pandemic).</p>
+	    </div>
+		  <h3><a href="#">COVID-19 Dangers</a></h3>
+		  <div>
+		    <p>The virus is said to have minor symptoms if it enters a person's body. But why is it so dangerous? The COVID-19 is known to multiply throughout the body and attack certain organ systems such as the cardiovascular sytem and the respiratory system. It tricks our white blood cells to copy the virus creating high risks for illness.</p>
+			<table>
+				<tr>
+					<th>2/1/2020</th>
+					<th>2/8/2020</th>
+					<th>2/15/2020</th>
+					<th>2/22/2020</th>
+					<th>2/29/2020</th>
+					<th>3/7/2020</th>
+					<th>3/14/2020</th>
+					<th>3/21/2020</th>
+					<th>3/28/2020</th>
+					<th>4/4/2020</th>
+					<th>4/11/2020</th>
+					<th>4/18/2020</th>
+					<th>4/25/2020</th>
+				</tr>
+				<tr>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>5</td>
+					<td>25</td>
+					<td>49</td>
+					<td>484</td>
+					<td>2640</td>
+					<td>7793</td>
+					<td>11468</td>
+					<td>8045</td>
+					<td>1078</td>
+				</tr>
+			  </table>
+	    </div>
+		  <h3><a href="#">Deaths</a></h3>
+		  <div>
+		    <p>It is rare that the coronavirus claims lives. However, different age groups such as small children and the elderly are likely to die from the COVID-19. To find out more about COVID-19 deaths, please skip to the safety page and click on the link in the third tab.</p>
+	    </div>
+	  </div>
+    </section>
+	<footer>
+		<form>
+		<input type="text" name="firstname" placeholder="First name">
+		<input type="text" name="lastname" 	placeholder="Last name">
+	  <input type="text" name="email"		placeholder="Email">
+	  <textarea name="message">Message</textarea>
+ 	  <input type="submit" name="Submit">
+	  <i class="fas fa-phone-alt">(210)422-1859</i>
+	  <i class="far fa-envelope">szorola6@gmail.com</i>
+	  <img src="facebook-icon-white-logo-png-transparent.png" usemap="#Map">
+      <map name="Map">
+        <area shape="rect" coords="2,4,26,27" href="https://www.facebook.com">
+      </map>
+	  <img src="instagramicon.png" usemap="#Map2">
+      <map name="Map2">
+        <area shape="rect" coords="5,4,27,29" href="https://www.instagram.com">
+      </map>
+      <img src="twitterpng.png" usemap="#Map3">
+      <map name="Map3">
+        <area shape="rect" coords="5,4,27,27" href="http://www.twitter.com">
+      </map>
+	
+	
+	</footer>
+		
+	</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+</script>
+</body>
+</html>
